@@ -1,0 +1,152 @@
+body {
+	/*background halaman Web*/
+	background-color: #e0fbfc;
+}
+
+.wrapper {
+
+}
+.container {
+	width: 1200px;
+	margin: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #fcd5ce;
+}
+.sidebar {
+	font-size: 20px;
+	font-family: arial arrow, tahoma;
+	width: 300px;
+	float: right;
+}
+.link {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: arial, tahoma, arial arrow;
+	color: #4361ee;
+	text-decoration: none;
+}
+.content {
+	width: 800px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+
+#logo {
+	float: left;
+	width: 200px;
+	height: auto;
+	padding: 20px;
+}
+
+#logo img {
+	max-width: 100%;
+	height: auto;
+}
+#menu {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	float: right;
+	width: 960px;
+}
+#menu li {
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#menu li a {
+	font-family: cooper black, Geneva, Tahoma, sans-serif;
+	color: #341f97;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.blog-content {
+	float: left;
+	max-width: 380px;
+	margin-top: 35px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.blog-content img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+}
+.recent-article {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.recent-article ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.blog-single {
+	float: left;
+	max-width: 720px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+.blog-single img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+#header-fixed {
+	margin-bottom: 10px;
+	position: fixed;
+	margin-left: 38px;
+	z-index: 1;
+}
+#space-header {
+	height: 200px;
+}
+.image-box {
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.overlay h2{
+	font-family: Arial, Tahoma, serif;
+	font-size: 30px;
+	 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #9ef01a;
+	color: black;
+}
+#video-player {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+#audio-player {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+#display li {
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#lihatpdf{
+width: 1000px;
+height: 500px;
+margin:auto;
+}
+object{
+	margin-left: 100px;
+}
